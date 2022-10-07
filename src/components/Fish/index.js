@@ -36,6 +36,7 @@ console.log(currentFish)
   //   if (typeof fish !== 'undefined') {
   // console.log(fish[0]['Species Name']);
 
+  
   if (typeof fish !== 'undefined') {
     return (
       <>
