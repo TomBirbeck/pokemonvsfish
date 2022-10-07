@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 5rem;
 }
 
 .App-logo {
@@ -35,4 +39,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.cards {
+  height: 60vh;
+  width: 30vw;
+  border: solid 2px black;
+}
+
+.imgs {
+  height: 40%;
+  width: 80%;
+  /* object-fit: cover; */
+}
+
+li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.vs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
